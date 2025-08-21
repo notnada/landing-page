@@ -1,0 +1,191 @@
+html, body {
+	height: 100%;
+ 	width: 100%;
+ 	margin: 0px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: Roboto;
+
+
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1F2937;
+	align-items: center;
+	font-size: 18px;
+	padding: 5px 200px 5px 200px;
+
+}
+
+header > p {
+	font-size: 24px;
+	color: #F9FAF8;
+	font-weight: bold;
+}
+
+ul {
+	display: flex;
+	gap: 16px;
+	list-style-type: none;
+	padding: 0px;
+	margin:0px;
+}
+
+a {
+	text-decoration: none;
+	color: #E5E7EB;
+}
+
+.hero {
+	display: flex;
+	background-color: #1F2937;
+	padding: 50px 200px 50px 200px;
+	align-items: flex-start;
+	gap: 35px;
+	flex: 1;
+
+
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+	margin: 0px;
+	flex: 1;
+}
+
+.hero p {
+	font-size: 18px;
+	color: #E5E7EB;
+	text-wrap: wrap;
+	flex: 1;
+
+}
+
+.hero img {
+	max-width: 100%;
+	width: 400px;
+	height: auto;
+	flex: 1;
+}
+
+ button {
+	background-color:#3882F6 ;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 40px 10px 40px;
+	flex: 0 1 auto; 
+	width: auto;    
+	align-self: flex-start;        /* fit content */
+
+
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0px 80px 30px 80px;
+}
+
+.cards {
+	display: flex;
+	gap: 60px;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	text-wrap: wrap;
+	width: 120px;
+}
+
+.card img {
+	
+	border-radius: 5px;
+	border: 4px solid blue;
+	width: 120px;
+}
+.quote {
+	display: flex;
+	font-style: italic;
+	font-weight: lighter;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: #E5E7EB;
+	padding: 80px;
+	font-size: 36px;
+	color: #1F2937;
+}
+
+.quote > p {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.cta {
+	padding: 100px;
+}
+
+
+.headercta{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cta button {
+	border: 2px solid white;
+	
+}
+
+.ctacard {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	background-color: #3882F6;
+	padding: 50px 100px 50px 100px;
+	border-radius: 5px;
+	flex : 1 1 auto;
+
+}
+
+.cta h2 {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	flex: 1 2 auto; 
+}
+
+.cta p {
+	color: #E5E7EB;
+	font-size: 18px;
+	flex: 1 0 auto; 
+}
+
+footer {
+	text-align: center;
+	color: white;
+	background-color:#1F2937 ;
+	padding: 10px;
+}
+
+
